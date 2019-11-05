@@ -29,7 +29,10 @@ def id_generator
 end
 
 def my_hash_creator(key, value)
- 
+ hash_next = {
+   key: "value"
+ }
+ hash_next
 end
 
 def read_from_hash(hash, key)
