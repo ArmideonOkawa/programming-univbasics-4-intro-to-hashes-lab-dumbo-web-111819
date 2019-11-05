@@ -30,7 +30,7 @@ end
 
 def my_hash_creator(key, value)
   hash_create = {
-    key: "value"
+    key: value
   }
   
   return hash_create
