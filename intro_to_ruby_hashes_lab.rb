@@ -33,7 +33,7 @@ def my_hash_creator(key, value)
    key: value 
    
  }
-  return  hash_two
+ hash_two
 end
 
 def read_from_hash(hash, key)
