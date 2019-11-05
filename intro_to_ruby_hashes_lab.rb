@@ -30,7 +30,9 @@ end
 
 def my_hash_creator(key, value)
  hash_two = {
-   :key => value }
+   key: value 
+   
+ }
   return  hash_two
 end
 
