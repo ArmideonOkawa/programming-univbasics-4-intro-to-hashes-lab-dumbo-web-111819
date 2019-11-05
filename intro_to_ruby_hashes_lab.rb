@@ -29,10 +29,9 @@ def id_generator
 end
 
 def my_hash_creator(key, value)
- hash_next = {
-   name: "Grace Hopper"
- }
- hash_next
+ hash_two = {
+   :key = value }
+  return  hash_two
 end
 
 def read_from_hash(hash, key)
